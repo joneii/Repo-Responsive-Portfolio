@@ -1,12 +1,77 @@
-.wrapper {
-    margin: 10px 0px 0px .10;
+
+/* This is the light grey for the background */
+body {
+
+background-color: #ECECEC;
+
 }
 
-.container {
+/* This allows my name to be white */
+.navbar-light .navbar-brand {
 
-    margin-top: 10px;
+
+    color: white;
+
 }
 
-.h3 {
-    color: red;
+/* Navigation bard as a whole */
+.navbar.navbar-expand-lg.navbar-light {
+
+    border-bottom: 2px solid rgba(102, 102, 102, 0.342);
+    background-color: white;    
+
+}
+
+
+
+/* My name background color */
+.navbar-brand {
+    background-color: #58A69E;
+    margin-left: 95px;
+    padding: 15px;
+    color: white;  
+    display: inline;
+}
+
+/* Thin darker grey bottom border for navbar and right positioned links */
+#navbarNavAltMarkup {
+
+    justify-content: flex-end;
+    margin-right: 5%;
+    border-bottom: gray;
+}
+
+/* About Me Card  */
+.card {
+    
+    margin-top: 40px;
+}
+
+/* My photo with restraints relative to text */
+.responsive {
+
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: auto;
+    margin-top: 6px;
+    float: left;
+
+}
+
+footer {
+
+    background: #666666;
+    border-top: 9px solid #4aaaa5;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#footer-text {
+
+  color: rgba(255, 255, 255, 0.767);
+
 }
