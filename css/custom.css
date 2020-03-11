@@ -6,11 +6,12 @@ background-color: #ECECEC;
 
 }
 
+
 /* This allows my name to be white */
 .navbar-light .navbar-brand {
 
-
     color: white;
+    position: relative;
 
 }
 
@@ -22,14 +23,11 @@ background-color: #ECECEC;
 
 }
 
-
-
 /* My name background color */
 .navbar-brand {
     background-color: #58A69E;
     margin-left: 95px;
-    padding: 15px;
-    color: white;  
+    padding: 15px;  
     display: inline;
 }
 
@@ -41,11 +39,24 @@ background-color: #ECECEC;
     border-bottom: gray;
 }
 
+.container {
+
+    position: relative;
+
+}
+
 /* About Me Card  */
 .card {
     
     margin-top: 40px;
 }
+
+h3 {
+
+    color: #58A69E;
+
+}
+
 
 /* My photo with restraints relative to text */
 .responsive {
@@ -59,6 +70,24 @@ background-color: #ECECEC;
 
 }
 
+
+.img-thumbnail {
+
+    height: 150px;
+    width: 200px;
+
+}
+
+
+/* Invisible box that pushes my footer to the bottom of the page */
+.push {
+
+    height: 303px;
+    bottom: 0;
+    
+}
+
+/* footer design */
 footer {
 
     background: #666666;
@@ -67,10 +96,13 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    bottom: 0;
+    position: relative
 
 }
 
-#footer-text {
+/* footer text that is opaque */
+.footer-text {
 
   color: rgba(255, 255, 255, 0.767);
 
